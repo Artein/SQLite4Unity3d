@@ -185,7 +185,7 @@ namespace SQLite4Unity3d
 
             public void SetValue(object obj, object value)
             {
-                if (_prop.PropertyType != value.GetType())
+                if (value != null && _prop.PropertyType != value.GetType())
                 {
                     value = Convert.ChangeType(value, _prop.PropertyType);
                 }
