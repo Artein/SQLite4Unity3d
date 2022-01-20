@@ -1,0 +1,8 @@
+{
+  "name": "com.magstersons.sqlite4unity",
+  "displayName": "SQLite4Unity",
+  "unity": "2021.2",
+  "version": "1.0.0",
+  "dependencies": {
+  }
+}
